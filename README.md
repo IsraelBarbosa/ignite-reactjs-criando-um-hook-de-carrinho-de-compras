@@ -1,38 +1,74 @@
-<p align="center">
-  <img alt="Rocketseat Education" src="https://avatars.githubusercontent.com/u/69590972?s=200&v=4" width="100px" />
-</p>
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=Rocketseat&message=Education&color=8257e5&labelColor=202024" alt="Rocketseat Project" />
-  <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=8257e5&labelColor=202024" alt="License"></a>
-</p>
+# DT Money
+
+Este projeto é parte do Ignite da Rocketseat e tem como objetivo criar um hook de carrinho de compras em uma aplicação ReactJS. 
+
+O hook de carrinho de compras permitirá aos usuários adicionar produtos ao carrinho, remover produtos, alterar quantidades e calcular o total da compra. O desafio é implementar de forma eficiente a lógica do carrinho de compras utilizando React Hooks.
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/IsraelBarbosa/ignite-reactjs-criando-um-hook-de-carrinho-de-compras.git
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd ignite-reactjs-criando-um-hook-de-carrinho-de-compras
+```
+
+Instale as dependências
+
+```bash
+  yarn
+```
+
+Inicie o json-server
+
+```bash
+  yarn server
+```
+
+Inicie o servidor
+
+```bash
+  yarn start
+```
+
+Inicie os testes
+
+```bash
+  yarn test
+```
 
 
-## 💻 Projeto
 
-ignite-template-reactjs-criando-um-hook-de-carrinho-de-compras
+## Stack utilizada
 
-## 📝 Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-<p align="center">
-  Feito com 💜 by Rocketseat
-</p>
+* React
+* TypeScript
+* styled-components
 
 
-<!--START_SECTION:footer-->
 
-<br />
-<br />
+## Aprendizados
 
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
+* React com typeScript
+* Utilizar o context api
+* Utilizar um hook customizado
+* Utilizar o react-router-dom
+* Utilizar o axios
+* Api mocking com o json-server
+* Utilizar o Styled-components
+* Utilizar o react-toastify
+* Uso da unidade de medida REM
+* Testes com jest
 
-<!--END_SECTION:footer-->
 
+
+## Screenshots
+
+![screenshot](screenshots/tela_inicial.png)
+
+![screenshot](screenshots/carrinho_de_compras.png)
