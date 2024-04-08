@@ -1,5 +1,5 @@
 
-# DT Money
+# ignite-reactjs-criando-um-hook-de-carrinho-de-compras
 
 Este projeto é parte do Ignite da Rocketseat e tem como objetivo criar um hook de carrinho de compras em uma aplicação ReactJS. 
 
